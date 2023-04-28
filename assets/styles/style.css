@@ -19,15 +19,31 @@ height: 180px;
     align-items: center;
     font-size: 18px;
 }
-.stack__item{
+.stack__item1,.stack__item2,.stack__item3{
     padding: 0 20px;
     padding-top: 10px;
     margin-top: 30px;
     border: 1px solid transparent;
     border-radius: 7px;
-    margin-bottom: -1px;
+    margin-bottom: -3px;
 } 
-.stack__item:hover{
+.stack__item1:hover{
+    background-color: #334E9E;
+    color: white;
+    height: 40px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 20px;
+}
+.stack__item2:hover{
+    background-color: #334E9E;
+    color: white;
+    height: 40px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 20px;
+}
+.stack__item3:hover{
     background-color: #334E9E;
     color: white;
     height: 40px;
@@ -63,7 +79,7 @@ height: 180px;
     display: flex;
     justify-content: center;
 }
-.card{
+.card1,.card2,.card3,.card4{
     margin-left: 30px;
 }
 .card__text{
@@ -89,11 +105,42 @@ height: 180px;
     overflow: hidden;
     transition: 0.5s ease;
 }
-.card__container:hover .card__figure img{
+ .card1:hover .card__figure img{
     transform: scale(1.1);
     cursor: pointer;
 }
-.card__container:hover .card__text{
+.card2:hover .card__figure img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card3:hover .card__figure img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card4:hover .card__figure img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card1:hover .card__text{
+    background-color: #334E9E;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card2:hover .card__text{
+    background-color: #334E9E;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card3:hover .card__text{
+    background-color: #334E9E;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card4:hover .card__text{
     background-color: #334E9E;
     color: white;
     transform: scale(1.1);
@@ -102,73 +149,34 @@ height: 180px;
 .card__icons1{
     height: 40px;
     position: absolute;
-    margin-left: -830px;
-    margin-top: 440px;
+    margin-left: 0px;
+    margin-top: 30px;
 }
 .card__icons2{
     height: 40px;
     position: absolute;
-    margin-left: -240px;
-    margin-top: 440px;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 .card__icons3{
     height: 40px;
     position: absolute;
-    margin-right: -330px;
-    margin-top: 440px;
+    margin-left: 70px;
+    margin-top: 30px;
 }
 .card__icons4{
     height: 40px;
     position: absolute;
-    margin-right: -900px;
-    margin-top: 440px;
+    margin-left: 50px;
+    margin-top: 30px;
 }
-.sale1{
+.sale1,.sale2,.sale3,.sale4{
     white-space: nowrap;
     position: absolute;
     background: rgba(0, 172, 236, 0.8);
     color: white;
     font-weight: 500;
-    margin-left: -730px;
-    height: 40px;
-    width: 150px;
-    padding-top: 5px;
-    margin-top: 60px;
-    text-align: center;
-    z-index: 1;
-}
-.sale2{
-    white-space: nowrap;
-    position: absolute;
-    background: rgba(0, 172, 236, 0.8);
-    color: white;
-    margin-left: -150px;
-    height: 40px;
-    width: 150px;
-    padding-top: 5px;
-    margin-top: 60px;
-    text-align: center;
-    z-index: 1;
-}
-.sale3{
-    white-space: nowrap;
-    position: absolute;
-    background: rgba(0, 172, 236, 0.8);
-    color: white;
-    margin-right: -430px;
-    height: 40px;
-    width: 150px;
-    padding-top: 5px;
-    margin-top: 60px;
-    text-align: center;
-    z-index: 1;
-}
-.sale4{
-    white-space: nowrap;
-    position: absolute;
-    background: rgba(0, 172, 236, 0.8);
-    color: white;
-    margin-right: -1005px;
+    margin-left: 110px;
     height: 40px;
     width: 150px;
     padding-top: 5px;
@@ -182,8 +190,8 @@ height: 180px;
     font-weight: 600;
     border-color: transparent;
     position: absolute;
-    margin-left: -220px;
-    margin-top: 500px;
+    margin-left: 40px;
+    margin-top: 90px;
     border-radius: 50px;
     height: 50px;
     width: 150px;
@@ -198,7 +206,7 @@ span{
     color: white;
     height: 35px;
     padding-top: 7px;
-    margin-top: 450px;
+    margin-top: 470px;
     margin-left: -50px;
 }
 footer {

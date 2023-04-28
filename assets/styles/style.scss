@@ -63,17 +63,61 @@ body{
     display: flex;
     justify-content: center;
 
-    .card{
+    .card1,.card2,.card3,.card4{
         margin-left: 30px;
-    }
 
-    &:hover{
+        .sale1,.sale2,.sale3,.sale4{
+            white-space: nowrap;
+            position: absolute;
+            background: rgba(0, 172, 236, 0.8);
+            color: white;
+            font-weight: 500;
+            margin-left: 110px;
+            height: 40px;
+            width: 150px;
+            padding-top: 5px;
+            margin-top: 60px;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+    .card1:hover .card__text{
         background-color: #334E9E;
         color: white;
         transform: scale(1.1);
         cursor: pointer;
     }
-    &:hover{
+    .card2:hover .card__text{
+        background-color: #334E9E;
+        color: white;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .card3:hover .card__text{
+        background-color: #334E9E;
+        color: white;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .card4:hover .card__text{
+        background-color: #334E9E;
+        color: white;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .card1:hover .card__figure img{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .card2:hover .card__figure img{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .card3:hover .card__figure img{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .card4:hover .card__figure img{
         transform: scale(1.1);
         cursor: pointer;
     }
@@ -99,6 +143,16 @@ body{
                 overflow: hidden;
                 transition: 0.5s ease;
 
+            }
+            span{
+                position: absolute;
+                border-radius: 50%;
+                background-color: red;
+                color: white;
+                height: 35px;
+                padding-top: 7px;
+                margin-top: 470px;
+                margin-left: -50px;
             }
     }
 
@@ -146,5 +200,8 @@ body{
                     background-color: #4c76f4;
             }
         }
+    }
+    footer {
+        background-color: rgb(219, 212, 212);
     }
 }
